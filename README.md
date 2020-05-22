@@ -11,6 +11,8 @@ This project specifically focuses on 5,863 x-ray scans obtained from patients in
 
 While many kernels on this dataset focuses on a simple binary classification between normal and pneumonia patients, this investigation will build a deep learning model to classify between three categories--normal, bacterial, and viral pneumonia. Both a self-made and a pre-trained model will be used along with optimization strategies such as feature extraction and freezing.
 
+![Types of Pneumonia Img](https://i.imgur.com/jZqpV51.png)
+
 ## Table of Contents
 
 Pneumonia Classification via Deep Learning - Powerpoint presentation of the project
