@@ -23,6 +23,21 @@ Student - Python Notebook of the project
 
 New directories were first created for viral, bacterial, and healthy patients with train, test, and validation subsets.
 
+Different models and their respective accuracy can be seen below:
+
+![accuracy](images/acc_1.JPG)
+
+Certain models performed poorly most likely due to overfitting. This is evident when examing accuracy and loss of training and validation sets over multiple epochs.
+For example, both training and validation sets had correlated accuracy with feature extraction
+
+![fe](images/freeze_val.JPG)
+
+Meanwhile, there is a growing disparity between accuracy and loss between both sets for the weights unfrozen model:
+
+![fe2](images/fe_val.JPG)
+
+For more infromation about each of the models, see below:
+
 >__A.__ Basic CNN (9 layers): Alternation between Conv2D and pooling layers with 2 dense layers. Overall accuracy with test data is **75.7**%
 
 >__B__. Pretrained Model (weights unfrozen) with 5 dense layers: Overall accuracy of **23.4%**. This is the worst attained accuracy and most likely the result of the model changing the weights of the pretrained model. 
@@ -37,3 +52,17 @@ New directories were first created for viral, bacterial, and healthy patients wi
 
 
 
+### Future Consideration 
+
+    - Streamline model compilation, fit, and accuracy score with functions and use pipelines for more efficiency.
+    - Test pipeline with a simple model first and compile, fit, and evaluate all other models overnight to save time.
+    - Streamline randomness of keras models to have reproducible results.
+    - Incorporate image augmentation to feed the model more data.
+
+### Future Projects
+    - Create a model capable of image classification for all 5 types of pneumonia
+    - Try more basic models that are less computationally expensive for comparison
+    - Buffer image data with additional data (e.g. from lab tests)
+    - Construct additional image classification models for other tests such as fMRI and CAT. 
+    - Use different pretrained models as the base such as Inception, MobileNet, Resnet, etc.
+    - Explore unsupervised models for image classification
