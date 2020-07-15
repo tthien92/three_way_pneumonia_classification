@@ -52,17 +52,17 @@ For more infromation about each of the models, see below:
 
 
 
-### Future Consideration 
+### Future Consideration
 
-    - Streamline model compilation, fit, and accuracy score with functions and use pipelines for more efficiency.
-    - Test pipeline with a simple model first and compile, fit, and evaluate all other models overnight to save time.
-    - Streamline randomness of keras models to have reproducible results.
-    - Incorporate image augmentation to feed the model more data.
+  - Streamline model compilation, fit, and accuracy score with functions and use pipelines for more efficiency
+  - Test pipeline with a simple model first and compile, fit, and evaluate all other models overnight to save time
+  - Streamline randomness of keras models to have reproducible results
+  - Incorporate image augmentation to feed the model more data
 
 ### Future Projects
-    - Create a model capable of image classification for all 5 types of pneumonia
-    - Try more basic models that are less computationally expensive for comparison
-    - Buffer image data with additional data (e.g. from lab tests)
-    - Construct additional image classification models for other tests such as fMRI and CAT. 
-    - Use different pretrained models as the base such as Inception, MobileNet, Resnet, etc.
-    - Explore unsupervised models for image classification
+   - Create a model capable of image classification for all 5 types of pneumonia
+   - Try more basic models that are less computationally expensive for comparison
+   - Buffer image data with additional data (e.g. from lab tests)
+   - Construct additional image classification models for other tests such as fMRI and CAT. 
+   - Use different pretrained models as the base such as Inception, MobileNet, Resnet, etc.
+   - Explore unsupervised models for image classification
